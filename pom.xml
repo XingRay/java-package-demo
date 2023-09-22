@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xingray</groupId>
+    <artifactId>java-package-demo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>java-package-01-cli-to-jar</module>
+        <module>java-package-03-cli-to-jar-with-dependency</module>
+        <module>java-package-02-cli-to-jar-with-lib</module>
+        <module>java-package-04-cli-to-exe-by-jpackage</module>
+        <module>java-package-05-clli-to-native-image</module>
+        <module>java-package-06-javafx-to-jar-with-lib</module>
+        <module>java-package-07-javafx-to-jar-with-dependency</module>
+        <module>java-package-08-javafx-to-exe-by-jpackage</module>
+        <module>java-package-09-javafx-to-native-image</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
